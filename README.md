@@ -4,7 +4,7 @@ Web application workshop for AEC Tech 2019: Seattle
 ![Application](https://raw.githubusercontent.com/mm-wang/WebApplicationWorkshop/master/assets/main.png)
 
 ## Configuration
-1. Run `npm i gulp -g`, which you'll need to run this locally.
+1. Run `npm i gulp -g`, which you'll need to run this locally. (use sudo to run as root/admin)
 2. Install a text editor such as Atom to read and manage the files.
 
 ## Run application
