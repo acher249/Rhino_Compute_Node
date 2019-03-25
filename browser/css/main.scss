@@ -1,0 +1,37 @@
+$primary: #77CCDD;//#7711aa;
+$secondary: #88BB00;
+
+$footer-height: 42px;
+$logo-height: $footer-height/3;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.card {
+  background: rgba(255,255,255,0.75);
+}
+
+/*
+THREEJS Container Styling
+ */
+#three-container {
+  position: fixed; //position is fixed relative to the full viewport
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#main-content {
+  margin-bottom: $footer-height + $grid-gutter-width/4;
+}
+
+/*
+Footer Styling
+ */
+.fixed-bottom {
+    height: auto;
+    line-height: $footer-height;
+}
+.logo {
+    height: $logo-height;
+}
